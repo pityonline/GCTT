@@ -13,4 +13,5 @@ jobs:
     - stage: markdownlint
       script:
         - gem install mdl
+        - file *.md
         - mdl .
